@@ -1,0 +1,67 @@
+.colorrounds-wrap{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.colorrounds-list{
+    display: flex;
+    margin: 10px;
+
+}
+.colorround-wrap{
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid;
+    border-color:rgba(0,0,0, 0);
+    transition: border-color .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorround-wrap-back{
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    border-radius: 50%;
+    background: rgba(255,255,255, 0.2);
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorround-wrap-select{
+    0%{
+        width: 0%;
+        height: 0%;
+    }   
+    100%{
+        width: 200%;
+        height: 200%;
+    }
+}
+
+@keyframes colorround-wrap-unselect{
+    0%{
+        width: 200%;
+        height: 200%;
+    }   
+    100%{
+        width: 0%;
+        height: 0%;
+    }
+}
+
+.colorround-wrap-select{
+    border-color: rgba(0,0,0, 0.2);
+}
+
+.colorround{
+    position: relative;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}

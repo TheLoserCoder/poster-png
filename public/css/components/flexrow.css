@@ -1,0 +1,57 @@
+.flexrow-wrap{
+    position: relative;
+    display: flex;
+
+    cursor: pointer;
+}
+.flexrow{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+
+ .flexrow-head{
+    text-transform: uppercase;
+    padding: 15px 10px;
+    font-size: 12pt;
+    padding: 10px;
+    color: white;
+    transition-property: background-color, border-color;
+    transition-duration: .3s;
+    border-left: 20px solid;
+    border-color: rgba(0,0,0,0);
+}
+
+.flexrow-head:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.flexrow-head-open{
+    border-color: rgba(0,0,0,0.2);
+}
+
+.flexrow-head-close{
+    border-color: rgba(0,0,0,0);
+}
+.flexrow-body{
+    display: inline-flex; 
+    width: auto;
+    align-items: center;
+    overflow: auto;
+    transition: max-height .1s;
+    overflow: hidden;
+    max-height: 0px;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.flexrow-body-close{
+   max-height: 0x;
+}
+
+.flexrow-body-open{
+   max-height: 350px;
+
+}

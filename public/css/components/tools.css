@@ -1,0 +1,31 @@
+#toolswrap{
+    position: relative;
+    display: flex;
+    height: 100%;
+    background: #5C78E6;
+
+    box-shadow: 5px 0px 5px rgb(190,190,190);
+}
+
+#toolslist{
+    position: relative;
+    overflow: auto;
+    display: flex;
+    flex-flow: column;
+
+}
+
+#toolslist::-webkit-scrollbar { width: 0; }
+
+#tools{
+    position: relative;
+    max-height: 100%;
+    display: flex;
+}
+
+.buttonWrap{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+

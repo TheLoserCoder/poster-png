@@ -1,0 +1,14 @@
+.textarea-wrap{
+    display: flex;
+    padding: 10px;
+}
+.textarea{
+    min-width: 320px;
+    height: 250px;
+    resize: none;
+    font-size: 11pt;
+   
+    text-align: justify;
+}
+
+.textarea::-webkit-scrollbar { width: 0; }

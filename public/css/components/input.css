@@ -1,0 +1,27 @@
+.input-wrap{
+    display: flex;
+    width: 100%;
+}
+
+input, textarea{
+    outline: none;
+    border: none;
+}
+
+.input{
+    padding: 20px;
+    width: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.microinput{
+    position: relative;
+    z-index: 1;
+    width: 60px;
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0);
+}

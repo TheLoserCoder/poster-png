@@ -63,6 +63,9 @@
 .refspan{
     font-size: inherit;
     transition: color .3s;
+    display: flex;
+    text-align: left;
+    word-break: break-word;
 }
 
 #rezult-changesize {
@@ -84,3 +87,4 @@
     top: 0px;
 
 }
+

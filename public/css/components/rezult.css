@@ -66,6 +66,11 @@
     display: flex;
     text-align: left;
     word-break: break-word;
+    display: inline-block;
+}
+
+.autnref{
+    font-size: inherit;
 }
 
 #rezult-changesize {
@@ -88,3 +93,29 @@
 
 }
 
+.rezult-inform span{
+    font-size: inherit;
+}
+
+#logo{
+    opacity: .5;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    color: rgb(220,220,220);;
+    z-index: 2;
+
+}
+
+#logo-back{
+    position: absolute;
+    width: 100%;
+    font-weight: bold;
+    height: 100%;
+    left: 2px;
+    top: 2px;
+    z-index: -1;
+    font-size: 20pt;
+}

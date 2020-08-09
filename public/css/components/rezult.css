@@ -118,4 +118,5 @@
     top: 2px;
     z-index: -1;
     font-size: 20pt;
+    transition: color .3s;;
 }

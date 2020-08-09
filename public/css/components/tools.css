@@ -12,6 +12,7 @@
     overflow: auto;
     display: flex;
     flex-flow: column;
+    max-width: 400px;
 
 }
 

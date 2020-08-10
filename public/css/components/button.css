@@ -7,13 +7,25 @@
 
 .button{
     padding: 10px;
-    background: #5C78E6;
     color: white;
     cursor: pointer;
     border-radius: 5px;
-    transition: background .3s;
+    transition: background-color .3s;
 }
 
-.button:hover{
+.button-light{
+    background-color: #5C78E6;
+}
+
+.button-dark{
+    background-color: rgb(20, 30, 45);
+    color: rgb(200,200,200);
+}
+
+.button-light:hover{
     background: #4864D2;
+}
+
+.button-dark:hover{
+    background-color: rgb(10, 20, 30);
 }

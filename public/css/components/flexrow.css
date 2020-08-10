@@ -18,30 +18,52 @@
     padding: 15px 10px;
     font-size: 12pt;
     padding: 10px;
-    color: white;
     transition-property: background-color, border-color;
     transition-duration: .3s;
     border-left: 20px solid;
     border-color: rgba(0,0,0,0);
 }
 
-.flexrow-head:hover{
+.flexrow-head-light{
+    color: white
+}
+
+.flexrow-head-dark{
+    color: rgb(200,200,200);
+}
+
+.flexrow-head-dark:hover{
     background-color: rgba(0,0,0,0.2);
 }
 
-.flexrow-head-open{
+
+.flexrow-head-light:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.flexrow-head-open-light{
     border-color: rgba(0,0,0,0.2);
 }
 
-.flexrow-head-close{
+.flexrow-head-close-light{
     border-color: rgba(0,0,0,0);
 }
+
+.flexrow-head-open-dark{
+    border-color: rgba(0,0,0,0.4);
+}
+
+.flexrow-head-close-dark{
+    border-color: rgba(0,0,0,0);
+}
+
 .flexrow-body{
     display: inline-flex; 
     width: auto;
     align-items: center;
     overflow: auto;
     transition: max-height .1s;
+    transition-timing-function: ease-in-out;
     overflow: hidden;
     max-height: 0px;
     background-color: rgb(255, 255, 255, 0.1);

@@ -2,9 +2,14 @@
     position: relative;
     display: flex;
     height: 100%;
-    background: #5C78E6;
+}
 
-    box-shadow: 5px 0px 5px rgb(190,190,190);
+.toolswrap-light{
+    background-color: #5C78E6;
+}
+
+.toolswrap-dark{
+    background-color: rgb(30, 40, 50);
 }
 
 #toolslist{

@@ -39,3 +39,9 @@ body{
     color: rgb(150,150,150);
 
 }
+
+#themeMark{
+    position: absolute !important;
+    top: 0px;
+    right: 0px;
+}

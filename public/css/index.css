@@ -45,3 +45,21 @@ body{
     top: 0px;
     right: 0px;
 }
+
+#tool-style-color-wrap{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    width: 100%;
+}
+
+.flexrow-body .slider-picker{
+
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.flexrow-body .slider-picker div{
+    transition: transform .2s;
+    height: 18px !important;
+}

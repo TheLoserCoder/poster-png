@@ -1,7 +1,7 @@
 .colorrounds-wrap{
     position: relative;
     display: flex;
-    width: 100%;
+
     justify-content: center;
     padding: 10px;
     cursor: pointer;

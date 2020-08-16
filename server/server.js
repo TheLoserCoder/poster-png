@@ -15,7 +15,7 @@ app.use((req, res, next) => {
     next();
 });
 
-const indexHtml = fs.readFileSync(__dirname + './../public/index.html').toString();
+const indexHtmlPath = __dirname + './../public/index.html';
 
 app.use('/', express.static(__dirname + './../public'));
 
@@ -56,8 +56,10 @@ app.post('/login', async (req, res) => {
 });
 
 app.use('*', (req, res) => {
-  var indexFile = path.resolve(__dirname,'/../public/index.html');
-  res.sendFile(indexFile);
+  //let indexFile = path.resolve(__dirname,'/../public/index.html');
+
+
+  res.sendFile("index.html", { root: __dirname + "/../public/"});
 })
 
 /*app.get('/*', function(req, res){

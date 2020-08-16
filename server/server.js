@@ -56,7 +56,7 @@ app.post('/login', async (req, res) => {
 });
 
 app.use('*', (req, res) => {
-  var indexFile = path.resolve(__dirname,'./../public/index.html');
+  var indexFile = path.resolve(__dirname,'/../public/index.html');
   res.sendFile(indexFile);
 })
 

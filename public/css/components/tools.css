@@ -2,6 +2,10 @@
     position: relative;
     display: flex;
     height: 100%;
+    animation-name: opentools;
+    animation-fill-mode: forwards;
+    animation-duration: .3s;
+
 }
 
 .toolswrap-light{
@@ -18,7 +22,7 @@
     display: flex;
     flex-flow: column;
     max-width: 400px;
-
+   
 }
 
 #toolslist::-webkit-scrollbar { width: 0; }
@@ -35,3 +39,11 @@
    
 }
 
+@keyframes opentools{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0%;
+    }
+}

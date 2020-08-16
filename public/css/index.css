@@ -6,7 +6,7 @@
 @import "./components/colororunds.css";
 @import "./components/rezult.css";
 @import "./components/button.css";
-
+@import "./components/login.css";
 
 body{
     margin: 0px;
